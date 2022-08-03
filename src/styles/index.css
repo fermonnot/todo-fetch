@@ -1,12 +1,42 @@
 
-/* 
+body{
+    
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #036572c7, #9bcaf3)
+}
+.container{
+    
+    font-family: 'Roboto', sans-serif;
+    
+}
+.title{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
 
-    You can write your own styles here...
+.col-12{
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50vh;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+   
+.close{
+    align-items: center;
+    justify-content: end;
+    text-align: justify;
+    color: white;
+}
+.input{
+    border-radius: 10px;
+}
+.card{
+    border-radius: 5px;
+}
+.close:hover{
+    background-color: rgb(97, 51, 139);
+}
